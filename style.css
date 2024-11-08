@@ -1,0 +1,190 @@
+::-webkit-scrollbar{
+    background-color: #7e2020;
+    width: 7px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: hsl(188, 31%, 77%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    background-color: #9ab3b9;
+}
+h1{
+    margin-bottom: 20px;
+    cursor: default;
+}
+.dashboard{
+    position: fixed;
+    height: 100vh;
+    background-color: #fff;
+    width: 250px;
+}
+#dash{
+    text-transform: capitalize;
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 13px 30px;
+}
+.log-out{
+    margin-top: 65%;
+}
+.main-body{
+    margin-left: 270px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.search-box input{
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.img-slider{
+    margin-bottom: 20px;
+    background-image: url(/img/Desktop.jpg);
+    background-size: contain;
+    width: 100%;
+    border-radius: 10px;
+    padding: 50px 30px;
+    color: #fff;
+}
+.catagorts ul{
+    display: flex;
+    gap: 10px;
+}
+.catagorts li{
+    min-width: 110px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    padding: 5px 10px; 
+    border-radius: 20px;
+    background-color: rgb(22, 18, 18);
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+#filter{
+    background-color: transparent;
+    display: flex;
+    border: solid;
+    color: #000;
+}
+#filter img{
+    width: 50px;
+    height: 30px;
+}
+.dashboard img{
+    width: 50px;
+    height: 30px;
+}
+.sellnow-btn{
+    cursor: pointer;
+    text-align: center;
+    max-width: 150px;
+    color: #000;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+    background-color: hsl(162, 36%, 53%);
+}
+.sellnow-btn:hover{
+    background-color: hsl(162, 36%, 60%);
+}
+.second-dashboard{
+    background-color: #fff;
+    height: 580px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.second-dashboard h1{
+    font-size: 20px;
+    margin-bottom: -1px;
+    text-transform: capitalize;
+}
+.second-dashboard h2{
+    color: gray;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.profiles{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+#dash:hover{
+    transition: 1s;
+    border-radius: 5px;
+    background-color: rgb(18, 12, 48);
+    color: #fff;
+}
+.logo{
+    text-transform: capitalize;
+    display: flex;
+    font-size: 20px;
+    cursor: default;
+    padding: 13px 30px;   
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.icon li{
+    padding: 10px;
+    border-radius: 100%;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+}.discrption{
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+.thumbnail img{
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+}
+.cards{
+    margin-bottom: 15px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.image img{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.card-listing{
+    display: flexbox;
+    columns: 3;
+    
+}
+.search-box img{
+    margin-left: -35px;
+    width: 20px;
+}
